@@ -42,3 +42,38 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  background-color: #1f1f2e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-family: "area-normal", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  color: white;
+  background-color: #9b9bdc;
+  padding: 10px 20px;
+  margin: 20%;
+  border: none;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-solid {
+  text-align: center;
+  color: white;
+  padding: 8px 0 8px 10px;
+}
