@@ -51,9 +51,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-button {
+.button {
   font-family: "area-normal", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -63,17 +64,34 @@ button {
   color: white;
   background-color: #9b9bdc;
   padding: 10px 20px;
-  margin: 20%;
   border: none;
   border-radius: 50px;
+  transition: ease-out 0.15s, box-shadow ease-out 0.15s, color 0.4s;
+  box-shadow: 0 2px 25px #000000;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+a:active,
+.fa-solid:active,
+.button:active {
+  color: #3f3fb0;
 }
 
 a {
   text-decoration: none;
+  transition: color 0.4s;
 }
 
 .fa-solid {
   text-align: center;
   color: white;
   padding: 8px 0 8px 10px;
+  transition: color 0.4s;
 }
